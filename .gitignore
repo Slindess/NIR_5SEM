@@ -1,0 +1,11 @@
+*.DS_Store
+*.o
+*.aux
+*.bbl
+*.blg
+*.toc
+*.log
+*.out
+*.idea/
+*.xml
+*.iml
