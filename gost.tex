@@ -11,9 +11,9 @@
 	{\normalsize\bfseries}
 	{\thesection}
 	{1em}{}
-\titlespacing*{\chapter}{12.5mm}{-22pt}{10pt}
-\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
-\titlespacing*{\subsection}{0pt}{\baselineskip}{\baselineskip}
+\titlespacing*{\chapter}{1.5cm}{-22pt}{10pt}
+\titlespacing*{\section}{1.5cm}{\baselineskip}{\baselineskip}
+\titlespacing*{\subsection}{1.5cm}{\baselineskip}{\baselineskip}
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\Large\bfseries}{\thechapter}{20pt}{\Large\bfseries}
@@ -66,6 +66,9 @@
 \usetikzlibrary{datavisualization.formats.functions}
 
 \usepackage{graphicx}
+\makeatletter
+\def\@biblabel#1{#1. }
+\makeatother
 
 % Команды добавления изображений
 \usepackage{float}
